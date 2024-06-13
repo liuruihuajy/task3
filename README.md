@@ -4,7 +4,8 @@ NeRF（Neural Radiance Fields）是一种面向三维隐式空间建模的深度
 
 ## 2. 数据集介绍
 为了验证NeRF模型在物体重建和新视图合成任务上的性能，我们选取Fern数据集，Fern数据集是与NeRF（神经辐射场）相关研究相关的一个数据集作为实验对象。首先，我们使用相机从不同角度对物体进行拍摄，获取一系列多角度的图片。这些图片将作为训练数据，用于估计相机参数和训练NeRF模型。此外，为了评估模型的性能，我们还预留了一部分测试图片，用于在定量指标上评价模型的合成效果。
-    
+- 数据集链接：http://cseweb.ucsd.edu/~viscomp/projects/LF/papers/ECCV20/nerf/tiny_nerf_data.npz
+- 命令下载 ：!wget http://cseweb.ucsd.edu/~viscomp/projects/LF/papers/ECCV20/nerf/tiny_nerf_data.npz
 
 ## 3. 实验设置
 ### 3.1 训练测试集划分
